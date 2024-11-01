@@ -1,0 +1,80 @@
+.in {
+    width: 100%;
+    background-color: #2d2f4a; /* Dark background */
+    color: #ffffff; /* Light text color */
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    /*padding: 0.5rem 1rem;*/
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+    font-family: Arial, sans-serif;
+   
+}
+
+.in::placeholder {
+    padding: 5vw;
+    color: #9a9ab3;
+    font-family: Helvetica, Sans-Serif;
+}
+
+.in:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Soft shadow on focus */
+    outline: none;
+    border-bottom: 2px solid #00e6ac; /* Highlighted bottom border */
+}
+
+.inputfieldbg {
+    background-color: #24263b;
+    align-items: center;
+    border-radius: 5%;
+    padding-left: 5vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5vw;
+    width: 85vw;
+}
+
+
+
+/* Submit Button styling */
+input[type="submit"] {
+    background-color: #2d2f4a;
+    color: #00e6ac;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #373a5a; /* Darker background on hover */
+}
+
+.productimage {
+    width: 40vw;
+}
+
+.productbg {
+    background-color: #24263b;
+    border-radius: 5%;
+    padding-left: 2vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2vw;
+    width: 40vw;
+}
+.product-container {
+    display: flex;
+    gap: 4vw;
+}
+
+.headline {
+    padding: 5px;
+    color: #9a9ab3;
+    font-family: Helvetica, Sans-Serif;
+    font-size: 4vw;
+}
